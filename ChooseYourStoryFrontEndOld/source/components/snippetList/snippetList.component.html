@@ -1,0 +1,14 @@
+<h3 [hidden]="noSnippets | async">Snippets</h3>
+<md-list>
+	<md-list-item class="cs-list-item row" *ngFor="let snippet of snippets | async">
+		<div *ngIf="isActive(snippet)" class="col-xs-10">
+			<md-input [(ngModel)]="updatedSnippet" 
+					  (keyup.enter)="updateSnippet()"
+					  (keyup.esc)="cancel()"></md-input>
+		</div>
+		<div *ngIf="!isActive(snippet)" class="col-xs-10" (click)="edit(snippet)">
+			{{snippet}}
+		</div>
+		<button class="col-xs-2" md-mini-fab (click)="removeSnippet(snippet)">X</button>
+	</md-list-item>
+</md-list>

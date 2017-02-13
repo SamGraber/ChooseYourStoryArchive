@@ -1,0 +1,1 @@
+{"version":3,"file":"authentication.browser.js","sourceRoot":"","sources":["authentication.browser.ts"],"names":[],"mappings":";AAAA,qBAAkC,eAAe,CAAC,CAAA;AAClD,uCAA4C,0BAA0B,CAAC,CAAA;AAI1D,8BAAsB,GAAG;IACrC,cAAO,CAAC,6BAAI,EAAE,EAAE,QAAQ,EAAE,IAAI,SAAS,CAAC,kCAAkC,EAAE,qBAAqB,CAAC,EAAE,CAAC;IACrG,8CAAqB;CACrB,CAAA"}
